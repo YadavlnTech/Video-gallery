@@ -1,2 +1,1 @@
-# Video-gallery
-this is video gallery 
+https://yadavlntech.github.io/Video-gallery/
