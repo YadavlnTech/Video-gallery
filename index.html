@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Video Gallery</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="header">
+                <h1 class="logo">Video Gallery</h1>
+                <form>
+                    <input type="text" placeholder="Search" id="search-input" autocomplete="off">
+                    <ion-icon name="search-outline" id="search-icon"></ion-icon>
+                    
+                </form>
+            </div>
+            <div class="gallery"></div>
+            <a class="load-more" data-img="curated">Load More</a>
+        </div>
+    </section>
+    <div class="video-modal hidden">
+        <button class="close-btn">Close</button>
+        <video controls></video>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
